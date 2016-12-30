@@ -2,8 +2,8 @@ package com.compassites;
 
 public class TestEmployees {
 	
-	public static int numberOfEmployees = 1;
-	public static int numberOfContractors = 2 ;
+	public static int numberOfEmployees = 5;
+	public static int numberOfContractors = 10;
 	
 	public static void main(String[] args) {
 		int numberOfEmployeesLocal = 10;
@@ -12,15 +12,16 @@ public class TestEmployees {
 		/*
 		 * Printing Class Variables
 		 */
-		System.out.println("No of employees - Global: " + numberOfEmployees);
-		System.out.println("No of contractors - Global: " + numberOfContractors);
+
+		System.out.println("No of Employees - Global: " + numberOfEmployees);
+		System.out.println("No of Contractors - GLOBAL: " + numberOfContractors);
 		
 		/*
 		 * Printing Local Variables
 		 */
 		
-		System.out.println("No of Emp - Global: " + numberOfEmployeesLocal);
-		System.out.println("No of Emp - Global: " + numberOfContractorsLocal);
+		System.out.println("No of Employees - Global: " + numberOfEmployeesLocal);
+		System.out.println("No of Contractors - Global: " + numberOfContractorsLocal);
 	}
 	
 	
