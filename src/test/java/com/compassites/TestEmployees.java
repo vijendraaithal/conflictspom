@@ -12,15 +12,15 @@ public class TestEmployees {
 		/*
 		 * Printing Class Variables
 		 */
-		System.out.println("No of Emp - Global: " + numberOfEmployees);
-		System.out.println("No of Emp - Global: " + numberOfContractors);
+		System.out.println("No of Employees - Global: " + numberOfEmployees);
+		System.out.println("No of Contractors - Global: " + numberOfContractors);
 		
 		/*
 		 * Printing Local Variables
 		 */
 		
-		System.out.println("No of Emp - Global: " + numberOfEmployeesLocal);
-		System.out.println("No of Emp - Global: " + numberOfContractorsLocal);
+		System.out.println("No of Employees - Global: " + numberOfEmployeesLocal);
+		System.out.println("No of Contractors - Global: " + numberOfContractorsLocal);
 	}
 	
 	
