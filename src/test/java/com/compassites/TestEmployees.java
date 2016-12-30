@@ -12,8 +12,8 @@ public class TestEmployees {
 		/*
 		 * Printing Class Variables
 		 */
-		System.out.println("No of Emp - Global: " + numberOfEmployees);
-		System.out.println("No of Emp - Global: " + numberOfContractors);
+		System.out.println("No of employees - Global: " + numberOfEmployees);
+		System.out.println("No of contractors - Global: " + numberOfContractors);
 		
 		/*
 		 * Printing Local Variables
